@@ -1,9 +1,13 @@
 Introduction
+============
+
 SproutedInterface is a hodgepodge of code I have come to use in Journler and other projects. This is also my first attempt at a public framework, so it is a mess. Although there is plenty of reason to the code, there is very little rhyme. I'll be cleaning up the code in the future. Anyone who would like to have a go at bringing some order to the framework is free to take a shot at it. I desparately need to add documentation as well as explain usage. Additionally, some of the classes don't even belong in a general framework like this one. It'll get better though.
 
 Please direct all inquiries to developer@journler.com
 
 The License
+-----------
+
 The SproutedInterface framework is licensed under a combination BSD and Creative Commons license.
 	•	http://www.opensource.org/licenses/bsd-license.php
 	•	http://creativecommons.org/licenses/by-nc/3.0/
@@ -34,6 +38,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 In addition, and from the Creative Commons license, you must attribute your use of the SproutedInterface framework to either Philip Dow or Sprouted. Permission for commercial use is granted on the aforementioned condition and those specified by the BSD license above.
 
 3rd Party Licenses and Acknowledgment
+-------------------------------------
+
 The SproutedInterface license does not affect the licensing terms specified by third party software which the framework includes. Licenses specified by 3rd party developers must be respected, including those which restrict commercial use. Software which uses 3rd party code in its use of this framework must also acknowledge that use independently of any acknowledgement to Philip Dow or Sprouted.
 
 It is possible that software being used in this framework has not been correctly attributed or is being used in ways inconsistent with the licensing terms. If you come across source code which you believe should not be included in this framework or which requires more robust attribution, please send an email to phil@journler.com.  I've collected code from a number of sources and I don't always note where it's from. For example, a lot of code is based on public source at cocoadev.com, a great repository for Cocoa and Obj-C developers. Check it out.
