@@ -311,7 +311,7 @@
 		72A7DE6C0CCD1D9A009ED8AC /* ABBarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ABBarSmall.png; sourceTree = "<group>"; };
 		72A7DE700CCD1DA3009ED8AC /* ComposeMailBarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ComposeMailBarSmall.png; sourceTree = "<group>"; };
 		72A7DE740CCD1DDD009ED8AC /* SafariBarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafariBarSmall.png; sourceTree = "<group>"; };
-		72A7E08B0CCD5220009ED8AC /* Read Me.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me.rtf"; sourceTree = "<group>"; };
+		72A7E08B0CCD5220009ED8AC /* README.markdown */ = {isa = PBXFileReference; explicitFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		72A7E08C0CCD5220009ED8AC /* Version History.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Version History.rtf"; sourceTree = "<group>"; };
 		72A7E09D0CCD574C009ED8AC /* PolishedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolishedWindow.h; sourceTree = "<group>"; };
 		72A7E09E0CCD574C009ED8AC /* PolishedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolishedWindow.m; sourceTree = "<group>"; };
@@ -530,7 +530,7 @@
 		0867D691FE84028FC02AAC07 /* Sprouted Interface */ = {
 			isa = PBXGroup;
 			children = (
-				72A7E08B0CCD5220009ED8AC /* Read Me.rtf */,
+				72A7E08B0CCD5220009ED8AC /* README.markdown */,
 				72A7E08C0CCD5220009ED8AC /* Version History.rtf */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -923,6 +923,7 @@
 				E337CBC10CA1B23500797802 /* Label Colors */,
 			);
 			name = Images;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E337CBBA0CA1B22000797802 /* PDURLTextField */ = {
@@ -1282,6 +1283,7 @@
 				729853840CD28BB400BB4A53 /* de */,
 			);
 			name = InfoPlist.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		723F4F0F0F6F0BA400212DFE /* SproutedAboutBox.nib */ = {
@@ -1292,6 +1294,7 @@
 				723F4F150F6F0BB800212DFE /* de */,
 			);
 			name = SproutedAboutBox.nib;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		724BACA30DB928F500DDE79D /* InsertLink.nib */ = {
@@ -1302,6 +1305,7 @@
 				724BACA60DB928FA00DDE79D /* de */,
 			);
 			name = InsertLink.nib;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		724BAD660DB92A6200DDE79D /* Stats.nib */ = {
@@ -1312,6 +1316,7 @@
 				724BAD6D0DB92A6E00DDE79D /* de */,
 			);
 			name = Stats.nib;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7298530B0CD27ECD00BB4A53 /* PDFontPreview.strings */ = {
@@ -1322,6 +1327,7 @@
 				7298537A0CD28A5200BB4A53 /* da */,
 			);
 			name = PDFontPreview.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7298532F0CD27FAA00BB4A53 /* PDTabsView.strings */ = {
@@ -1332,6 +1338,7 @@
 				729853780CD28A4A00BB4A53 /* da */,
 			);
 			name = PDTabsView.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7298533B0CD27FF100BB4A53 /* PDFavoritesBar.strings */ = {
@@ -1342,6 +1349,7 @@
 				729853760CD28A4200BB4A53 /* da */,
 			);
 			name = PDFavoritesBar.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E337CBE70CA1B2F300797802 /* IntegrationFileCopy.nib */ = {
@@ -1352,6 +1360,7 @@
 				729853890CD28BF300BB4A53 /* da */,
 			);
 			name = IntegrationFileCopy.nib;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E337CBE90CA1B2F300797802 /* Mediabar.strings */ = {
@@ -1362,6 +1371,7 @@
 				7298537F0CD28A6900BB4A53 /* da */,
 			);
 			name = Mediabar.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E337CBEB0CA1B2F300797802 /* NewMediabarItem.nib */ = {
@@ -1372,6 +1382,7 @@
 				729853880CD28BF300BB4A53 /* da */,
 			);
 			name = NewMediabarItem.nib;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E337E4110CA3780000797802 /* FileInfo.strings */ = {
@@ -1382,6 +1393,7 @@
 				7298537C0CD28A5900BB4A53 /* da */,
 			);
 			name = FileInfo.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
