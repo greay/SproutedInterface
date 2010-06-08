@@ -500,9 +500,9 @@ static NSDictionary *sTitleAttributes = nil;
         
         // adjust the shadow box selection color based on the background color. values closer to white use black and vice versa
         NSColor *newShadowBoxColor;
-        float whiteValue = 0.0;
+        CGFloat whiteValue = 0.0;
         if ([backgroundColor numberOfComponents] >= 3) {
-            float red, green, blue;
+            CGFloat red, green, blue;
             [backgroundColor getRed:&red green:&green blue:&blue alpha:NULL];
             whiteValue = (red + green + blue) / 3;
         } else if ([backgroundColor numberOfComponents] >= 1) {
@@ -970,7 +970,7 @@ static NSDictionary *sTitleAttributes = nil;
 	if ([event clickCount] == 2) {
 		// There could be more than one selected photo.  In that case, call the delegates doubleClickOnPhotoAtIndex routine for
 		// each selected photo.
-		unsigned int			selectedIndex = [[self selectionIndexes] firstIndex];
+		NSUInteger selectedIndex = [[self selectionIndexes] firstIndex];
 		while (selectedIndex != NSNotFound) {
 			[delegate photoView:self doubleClickOnPhotoAtIndex:selectedIndex withFrame:[self photoRectForIndex:selectedIndex]];
 			selectedIndex = [[self selectionIndexes] indexGreaterThanIndex:selectedIndex];
@@ -1114,7 +1114,7 @@ static NSDictionary *sTitleAttributes = nil;
 		keyChar = [eventKey characterAtIndex:0];
 		if (keyChar == ' ')
 		{
-			unsigned int			selectedIndex = [[self selectionIndexes] firstIndex];
+			NSUInteger selectedIndex = [[self selectionIndexes] firstIndex];
 			
 			while (selectedIndex != NSNotFound)
 			{
@@ -2075,7 +2075,7 @@ static NSDictionary *sTitleAttributes = nil;
 	if (oldSelection && newSelection)
 	{
 		// First, see which of the old are different than the new
-		unsigned int thisIndex = [newSelection firstIndex];
+		NSUInteger thisIndex = [newSelection firstIndex];
 		
 		while (thisIndex != NSNotFound)
 		{

@@ -15,15 +15,15 @@
 
 @interface PDFavorite : NSView {
 	
-	NSString			*_title;
-	//NSAttributedString	*_attributedTitle;
-	id					_identifier;
-	//NSArray				*_subElements;
+	NSString *_title;
+	//NSAttributedString *_attributedTitle;
+	id _identifier;
+	//NSArray *_subElements;
 	
-	NSSize				_idealSize;
-	int					_state;
+	NSSize _idealSize;
+	NSInteger _state;
 	
-	int label;
+	NSInteger label;
 	BOOL drawsLabel;
 }
 
@@ -38,11 +38,11 @@
 - (id) identifier;
 - (void) setIdentifier:(id)identifier;
 
-- (int) state;
-- (void) setState:(int)state;
+- (NSInteger) state;
+- (void) setState:(NSInteger)state;
 
-- (int) label;
-- (void) setLabel:(int)aLabel;
+- (NSInteger) label;
+- (void) setLabel:(NSInteger)aLabel;
 
 - (BOOL) drawsLabel;
 - (void) setDrawsLabel:(BOOL)draws;

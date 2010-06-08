@@ -364,13 +364,13 @@
 			myCustomItemDictionaries = [NSMutableArray array];
 	}
 	
-	int itemIdentifierIndex = [myItemIdentifiers indexOfObject:[anItem identifier]];
+	NSInteger itemIdentifierIndex = [myItemIdentifiers indexOfObject:[anItem identifier]];
 	if ( itemIdentifierIndex != NSNotFound )
 		[myItemIdentifiers removeObjectAtIndex:itemIdentifierIndex];
 	else
 		NSLog(@"%@ %s - unable to remove item with identifier %@", [self className], _cmd, [anItem identifier]);
 	
-	int dictionaryIndex = [[myCustomItemDictionaries valueForKey:@"identifier"] indexOfObject:[anItem identifier]];
+	NSInteger dictionaryIndex = [[myCustomItemDictionaries valueForKey:@"identifier"] indexOfObject:[anItem identifier]];
 	if ( dictionaryIndex != NSNotFound )
 		[myCustomItemDictionaries removeObjectAtIndex:dictionaryIndex];
 	else
@@ -517,7 +517,7 @@
 			NSLog(@"%@ %s - unable to remove item with identifier %@", [self className], _cmd, [theRepresentedObject identifier]);
 		*/
 		
-		int dictionaryIndex = [[myCustomItemDictionaries valueForKey:@"identifier"] indexOfObject:[theRepresentedObject identifier]];
+		NSInteger dictionaryIndex = [[myCustomItemDictionaries valueForKey:@"identifier"] indexOfObject:[theRepresentedObject identifier]];
 		if ( dictionaryIndex != NSNotFound )
 			[myCustomItemDictionaries replaceObjectAtIndex:dictionaryIndex withObject:dictionaryRepresentation];
 		else

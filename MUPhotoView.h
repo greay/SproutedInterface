@@ -227,7 +227,7 @@ extern NSString *ShowCaptionChangedNotification;
 // drag and drop
 /** A delegate would use this method to specify whether the view should support drag operations. (i.e. whether the view should allow photos to be dragged out of the view.
     The semantics are identical to the -[NSDraggingSource draggingSourceOperationmaskForLocal] **/
-- (unsigned int)photoView:(MUPhotoView *)view draggingSourceOperationMaskForLocal:(BOOL)isLocal;
+- (NSDragOperation)photoView:(MUPhotoView *)view draggingSourceOperationMaskForLocal:(BOOL)isLocal;
 /** The view will call this method at drag time. The delegate should pass an array indicating the types that it will put on the pasteboard for a given set of images. If
     you provide an implementation for -photoView:draggingSourceOperationMaskForLocal: that returns anything other than NO, you should also implement this method and indicate
     which types you will support. **/

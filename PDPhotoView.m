@@ -347,7 +347,7 @@
 	{
 		// There could be more than one selected photo.  In that case, call the delegates doubleClickOnPhotoAtIndex routine for
 		// each selected photo.
-		unsigned int selectedIndex = [[self selectionIndexes] firstIndex];
+		NSUInteger selectedIndex = [[self selectionIndexes] firstIndex];
 		while (selectedIndex != NSNotFound) {
 			[delegate photoView:self doubleClickOnPhotoAtIndex:selectedIndex withFrame:[self photoRectForIndex:selectedIndex]];
 			selectedIndex = [[self selectionIndexes] indexGreaterThanIndex:selectedIndex];

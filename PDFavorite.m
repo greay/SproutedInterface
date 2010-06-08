@@ -189,20 +189,20 @@ static NSDictionary* HoverTitleAttributes()
 	}
 }
 
-- (int) state { return _state; }
+- (NSInteger) state { return _state; }
 
-- (void) setState:(int)state {
+- (void) setState:(NSInteger)state {
 	
 	_state = state;
 	
 }
 
-- (int) label
+- (NSInteger) label
 {
 	return label;
 }
 
-- (void) setLabel:(int)aLabel
+- (void) setLabel:(NSInteger)aLabel
 {
 	label = aLabel;
 	[self setNeedsDisplay:YES];

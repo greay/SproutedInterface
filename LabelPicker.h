@@ -32,8 +32,8 @@
 	NSRect	_greyRect;
 }
 
-- (int) tag;
-- (void) setTag:(int)aTag;
+- (NSInteger) tag;
+- (void) setTag:(NSInteger)aTag;
 
 - (id) target;
 - (void) setTarget:(id)targetObject;

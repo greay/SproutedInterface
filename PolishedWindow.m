@@ -11,12 +11,12 @@
 
 @implementation PolishedWindow
 
-- (id)initWithContentRect:(NSRect)contentRect styleMask:(unsigned int)styleMask backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag 
+- (id)initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)styleMask backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag 
 {
     return [self initWithContentRect:contentRect styleMask:styleMask backing:bufferingType defer:flag flat:NO];
 }
 
-- (id)initWithContentRect:(NSRect)contentRect  styleMask:(unsigned int)styleMask backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag flat:(BOOL)flat 
+- (id)initWithContentRect:(NSRect)contentRect  styleMask:(NSUInteger)styleMask backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag flat:(BOOL)flat 
 {
 
 	if ( ![self respondsToSelector:@selector(contentBorderThicknessForEdge:)] )

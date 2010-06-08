@@ -339,7 +339,7 @@
 
 - (PDFavorite*) favoriteWithIdentifier:(id)anIdentifier
 {
-	int anIndex = [[_vFavorites valueForKey:@"identifier"] indexOfObject:anIdentifier];
+	NSInteger anIndex = [[_vFavorites valueForKey:@"identifier"] indexOfObject:anIdentifier];
 	if ( anIndex == NSNotFound ) return nil;
 	else return [_vFavorites objectAtIndex:anIndex];
 }
